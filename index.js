@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hey this is my API running 🥳')
+    res.send('Animus running')
   })
 
 app.post('/', (req, res) => {
