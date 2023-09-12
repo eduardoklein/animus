@@ -17,6 +17,6 @@ app.post('/', (req, res) => {
     return res.status(200).json(data);
 });
 
-app.listen(3002, () => {
+app.listen(4000, () => {
     console.log('Server funcionando');
 });
